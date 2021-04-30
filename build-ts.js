@@ -1,7 +1,7 @@
 require('esbuild')
   .build({
-    entryPoints: ['app.jsx'],
+    entryPoints: ['app.ts'],
     bundle: true,
-    outfile: 'build/out-build-script.js',
+    outfile: 'build/out-build-ts.js',
   })
   .catch(() => process.exit(1));
