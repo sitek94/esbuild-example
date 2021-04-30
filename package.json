@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "build": "esbuild app.jsx --bundle --outfile=build/out.js",
-    "build-script": "node build-script.js"
+    "build-script": "node build-script.js",
+    "build-prod": "node build-prod.js"
   },
   "dependencies": {
     "esbuild": "^0.11.16",
