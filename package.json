@@ -2,12 +2,12 @@
   "name": "esbuild-example",
   "version": "1.0.0",
   "description": "A quick example of using esbuild bundler",
+  "author": "Maciek Sitkowski",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "esbuild app.jsx --bundle --outfile=build/out.js",
+    "build-script": "node build-script.js"
   },
-  "author": "sitek94",
-  "license": "ISC",
   "dependencies": {
     "esbuild": "^0.11.16",
     "react": "^17.0.2",
